@@ -161,17 +161,22 @@ article {
 #subBtn {
     background-color: rgba(0, 0, 0, 0.171);
     border: .05px solid black;
-    color: rgb(131, 92, 42);
+    color: rgb(134, 94, 42);
     min-width: 50%;
     margin-top: 30px;
     box-shadow: 1px 2px 3px #CA4;
 }
 
 #subBtn:hover {
-    background-color: #CA5;
+    background-color: rgb(173, 145, 72);
     border: .05px solid black;
     color: rgb(70, 49, 22);
     box-shadow: 1px 2px 3px #971;
+}
+
+.inP  {
+    outline: none;
+
 }
 
 @media (min-width:500px) {
