@@ -17,6 +17,21 @@ body {
     text-decoration: none;
 }
 
+.toolbar {
+    position : absolute;
+    text-align: left; 
+    background-color: rgb(105, 88, 37);
+}
+
+.toolbar li{
+    list-style: none;
+    display: block; 
+}
+
+.hidden {
+    display: none;
+}
+
 :root {
     --mainColor : #3a362b;
     --mainDarkColor : #48444d;
@@ -113,10 +128,21 @@ article {
     text-align: center;
 }
 
+.description {
+    display: fixed;
+    background-color: rgb(194, 176, 122);
+    padding: 2px;
+}
+
 #myImage img{
-    width: 95%;
+    width: 90%;
     height: 95%;
     margin: 7px;
+    transition: width 1s;
+}
+
+#myImage img:hover{
+    width :95%;
 }
 
 .whiteText {
